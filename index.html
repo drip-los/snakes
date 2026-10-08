@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Snakes HQ</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-512.png">
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-title" content="Snakes HQ">
+<meta name="theme-color" content="#0b1220">
+<script>
+var HQ="https://claude.ai/artifact/WEFRJbd8qvn6t8ATnfLhUv";
+// Opened from the home screen icon: go straight to the HQ.
+if(/[?&]open=1/.test(location.search)){location.replace(HQ)}
+// First visit in a browser: mark the address so the saved icon opens the HQ directly.
+else{try{history.replaceState(null,"","?open=1")}catch(e){}}
+</script>
+<style>
+body{margin:0;background:#0b1220;color:#eef2f8;font:16px/1.5 system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}
+main{max-width:420px;padding:28px 20px;text-align:center}
+img{width:120px;height:120px;border-radius:26px}
+h1{font-size:26px;margin:16px 0 6px}p{color:#8a96ad;margin:0 0 18px}
+ol{text-align:left;background:#141c2c;border:1px solid #243049;border-radius:16px;padding:16px 16px 16px 36px;margin:0 0 20px}
+li{margin:6px 0}b{color:#19d3b5}
+a{display:inline-block;background:#19d3b5;color:#0b1220;font-weight:700;text-decoration:none;padding:13px 22px;border-radius:999px}
+</style></head>
+<body><main>
+<img src="icon-512.png" alt="United Snakes of America logo">
+<h1>Snakes HQ</h1>
+<p>Put the league on your home screen.</p>
+<ol>
+<li><b>iPhone:</b> tap the Share button, then <b>Add to Home Screen</b>.</li>
+<li><b>Android:</b> tap the three dots, then <b>Add to Home screen</b>.</li>
+<li>Tap <b>Add</b>. The snake shows up on your home screen.</li>
+</ol>
+<a id="go" href="https://claude.ai/artifact/WEFRJbd8qvn6t8ATnfLhUv">Open the HQ now</a>
+</main></body></html>
